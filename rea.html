@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atimaku Gladys- Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:grey;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 0 0 25%; /* Sidebar width */
+    background-color:lightblue;
+    color:black;
+    padding: 20px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    padding-left: 0;
+}
+
+li {
+    flex: 0 0 45%; /* Two columns */
+    margin-right: 10%; /* Space between columns */
+}
+
+
+.main-content {
+    flex: 0 0 75%; /* Main content width */
+    background-color:blanchedalmond;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: disc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sidebar and main content */
+    }
+
+    .sidebar {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on mobile */
+    }
+
+    .main-content {
+        flex: 0 0 auto;
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1>ATIMAKU GLADYS</h1>
+            <h2>REGISTERED STUDENT</h2>
+            <img src="atimaku.jpeg" alt="Atimaku Gladys" class="profile-photo">
+
+            <h3>Contact Information</h3>
+            <p>Ewuata</p>
+            <p>Arua,Uganda</p>
+            <p>256-776673826</p>
+            <p><a href="mailto:atimakugladys3@gmail.com">atimakugladys3@gmail.com</a></p>
+            <p><a href="http://www.atimakugladys.com">www.atimakugladys.com</a></p>
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Communication</strong></li>
+                I have effectively collaborated with team members on group projects, ensuring timely completion and high quality results.
+                <br>I built strong relationships with colleagues and stakeholders through active listening and effective interpersonal communication.
+                <li><strong>Leadership</strong></li>
+                I have led group projects, coordinating tasks and ensuring successful outcomes.<br>I successfully managed a project from conception to delivery, ensuring timely completion and exceeding client expectations.
+            </ul>
+        </aside>
+        <main class="main-content">
+            <section class="education">
+                <h3>Education</h3>
+                <p>Bachelor of Information Technology</p>
+                <p>Muni University,Arua</p>
+                <p>Relevant course units: Web Application Development, Computer Repair and Assembly.</p>
+            </section>
+            <section class="experience">
+                <h3>Experience</h3>
+                <p>Student| Bachelors in IT| Muni University|August 2025 – Current</p>
+                <p>Student |A'Level|Ediofe Girls' SS|February 2023–December 2024</p>
+                <p>Student at the same time an instructor|Computer Practice|Good Hope Computer Center|February 2022–December 2022</p>
+                <p>I am a detail-oriented IT Student committed to delivering high quality solutions and passionate about driving technological advancements.</p>
+            </section>
+            <section class="references">
+                <h3>References</h3>
+                
+<p>Mr.Ojarah Micheal,0778563424</p>
+                <p>Mr.Vuni Moses,0776543266</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
+
+<p><a href="Atimaku Gladys resume.pdf" class="download-button">Download Resume</a></p>
